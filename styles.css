@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	
+	
+}
+
+
+header {
+    background-color: #9d43a3;/*ljubičasta */
+    color: #fff;/*bela */
+    text-align: center;
+    padding: 5px;
+	overflow: hidden;
+	
+}
+
+.footer {
+  font:Arial;
+  text-align: center;
+  padding: 1px;
+  background-color: #f3d3f5;
+  color: #9d43a3;
+  border-top: 4px solid gray;
+}
+
+.small {
+  line-height: 1.5;
+}
+
+.slogan{
+	background-color: #f3d3f5;
+	font:sans-serif;
+	color:#9d43a3;
+	height:customized;
+	
+	}
+	
+.naslov{
+	background-color: #d9e7ff;
+	font:sans-serif;
+	color:#9d43a3;
+	height:30px;
+	width: 30%;
+	text-align: center;
+		
+	}
+
+
+nav {
+    background-color: #6aa3ff; /* Promenjena boja pozadine: plava*/
+    overflow: hidden;
+    text-align: center; /* Postavljena navigacija na sredinu */
+	clear: both; /* da navigacija bude ispod loga i teksta */
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: inline-block; /* Postavljanje na sredinu */
+	
+}
+
+nav li {
+    display: inline-block; /* Postavljanje na sredinu */
+	margin-right: 10px;
+
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9d43a3; /* Promenjena boja prilikom hover-a: ljubičasta */
+	text-decoration: underline;
+	color: white;
+}
+
+#sadrzaj{
+    display:flex;
+    align-content: center;
+    justify-content: center;}
+	
+#glavni-sadrzaj{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3px;
+	
+	} 
+	
+.gornji-deo{
+    display:flex;
+	padding-top:16px;
+	gap:10px;
+}
+.slika{
+    height:500px;
+    max-width: 50%;
+	width: customized;
+    display:none;
+    animation: fadeIn 1s;
+}
+.aktivna-slika{
+    display:block;}
+	
+.donji-deo{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top:16px;
+}
+.tacka{
+    background-color:gray;
+    width:12px; height: 12px;
+    border-radius: 50%;
+}
+.aktivna-tacka{
+    background-color:#6aa3ff;
+}
+#opis{
+    height:500px;
+    /*max-width: 50%;*/
+	width: customized;
+    background-color: #f3d3f5;
+    color:black;
+	}
+
+#opis{
+    padding:30px;
+    text-align: left;
+	font-size: 18px;
+    color: black;
+}
+	
+
+#top-section {
+    overflow: hidden; /* Dodajte ovu liniju kako biste popravili efekat "clearfix" */
+}
+
+#logo-container {
+    float: left;
+}
+
+#logo-container img {
+	margin: 10px;
+    max-height: 100px; /* Prilagodite veličinu loga po potrebi */
+}
+#info-qr-container {
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+#info-container {
+    float: center;
+    text-align: center;
+    padding: 15px;
+}
+#text-line1
+ {
+    margin: 0;
+    color:white;
+	padding: 3px;
+	
+}
+
+#info-container img {
+    max-height: 80px; /* Prilagodite veličinu QR koda po potrebi */
+    margin-bottom: 10px;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 20px;
+	
+}
+
+#qr-container {
+    float: right;
+    /*text-align: right;
+    margin-top: 0px;*/
+}
+
+#qr-container img {
+	
+    max-height: 100px; /* Prilagodite veličinu loga po potrebi */
+}
+
+
+
+#content {
+    white-space: pre-wrap;
+	padding: 2px 20px	;
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #6aa3ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+    background-color: #4054b2;
+}
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  color: black;
+ 
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.solid {
+	border-style: solid;
+  border-width: 2px ;
+  border-color: #d382d9;
+  color:black;
+	}
+	
+	
+	
+	.banner {
+  position: relative;
+  text-align: center;
+  color: purple;
+}
+
+.background-image {
+ 
+  opacity: 0.5; /* Postavlja providnost slike */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centriranje teksta */
+  font-family: Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efekat senke na tekstu */
+}
+
+
+.kontejner {
+  display: flex; /* Postavlja kontejnere (sliku i tekst) u horizontalni nivo */
+  align-items: center; /* Poravnava vertikalno na sredinu */
+  background-color: #18b885; /* Postavlja pozadinsku boju */
+  padding: 20px; /* Dodaje unutrašnji razmak između sadržaja i ivica */
+  border-radius: 10px; /* Zaobljeni uglovi, po želji */
+}
+
+.left-image {
+  width: 200px; /* Prilagodi širinu slike prema potrebi */
+  margin-right: 20px; /* Prazan prostor između slike i teksta */
+}
+
+.right-text {
+  flex: 1; /* Tekst će zauzeti ostatak prostora */
+  line-height: 1.6;
+}
+
+.kontejner2 {
+  display: flex; /* Postavlja elemente (tekst i sliku) u horizontalni nivo */
+  justify-content: space-between; /* Razmešta elemente na suprotne strane */
+  align-items: center; /* Vertikalno poravnava elemente */
+  background-color: #1838b8; /* Pozadinska boja */
+  padding: 20px; /* Unutrašnji razmak */
+  border-radius: 10px; /* Zaobljeni uglovi po želji */
+}
+
+.left-text {
+  flex: 1; /* Tekst zauzima preostali prostor */
+}
+
+.right-image {
+  width: 50%; /* Prilagodi širinu slike */
+  margin-left: 20px; /* Razmak između teksta i slike */
+}
+	
+		
+

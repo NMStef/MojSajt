@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.sidebar {
+  position: relative;
+  height: customized;
+  width: 220px;
+  background-color: #f3d3f5;
+  color:black;
+  /*padding: 0px;*/
+  z-index: 99;
+  text-align: right;
+}
+
+.sidebar a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.menu-content {
+  position: relative;
+  height: customized;
+  width: 100%;
+  /*margin-top: 0px;*/
+  /*overflow-y: scroll;*/
+}
+.menu-content::-webkit-scrollbar {
+  display: none;
+  
+}
+.menu-items {
+  height: customized;
+  width: 100%;
+  list-style: none;
+  transition: all 0.4s ease;
+  
+}
+.submenu-active .menu-items {
+  transform: translateX(-56%);
+  height: customized;
+}
+.menu-title {
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+.item a,
+.submenu-item {
+  padding: 5px;
+  display: inline-block;
+  width: 100%;
+  
+  
+}
+.item i {
+  font-size: 12px;
+}
+.item a:hover,
+.submenu-item:hover,
+.submenu .menu-title:hover {
+  background-color: #9d43a3; /* Promenjena boja prilikom hover-a: ljubičasta */
+  
+}
+.submenu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+}
+.submenu {
+  position: absolute;
+  height: customized;
+  width: 100%;
+  top: 0;
+  right: calc(-100% - 26px);
+  height: calc(100% + 100vh);
+  background: #f3d3f5;
+  display: none;
+  /*max-height: 500px; /* Postavite željenu maksimalnu visinu */
+  
+}
+
+
+.show-submenu ~ .submenu {
+  display: block;
+  
+}
+.submenu .menu-title {
+  
+  cursor: pointer;
+}
+.submenu .menu-title i {
+  margin-right: 10px;
+  
+}
+
+.submenu .item {
+    width: 100%;
+	padding: 5px 5px;
+	
+}
+
+.submenu .item a {
+    display: block;
+	text-align: right; /* Poravnanje teksta udesno */
+	
+}
+
+.item {
+    width: 100%;
+	padding: 5px 5px;
+	
+	
+}
+
+
+
+.sidebar.close ~ .main {
+  left: 0;
+  width: 100%;
+}
+
+.container {
+           display: grid;
+           grid-template-columns: min-content 1fr; /* Prvi stupac je minimalne širine (za navigaciju), drugi je fleksibilan (za tabelu) */
+           gap: 30px; /* Prostor između elemenata */
+        }
