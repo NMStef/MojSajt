@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Почетна страница -->
+  <url>
+    <loc>https://plavazvezdazajecar.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Производи -->
+  <url>
+    <loc>https://plavazvezdazajecar.com/proizvodi.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Остале подстранице -->
+  <url><loc>https://plavazvezdazajecar.com/KancNamestaj.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Oprema.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/fascikle.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/municija.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/toneri.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Busaci.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Heftalice.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Spajalice.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/HemOlovke.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/GrOlovke.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/TehOlovke.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/folije.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/folijePlast.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Pakovanje.html</loc></url>
+  <url><loc>https://plavazvezdazajecar.com/Tabuliri.html</loc></url>
+  
+</urlset>
