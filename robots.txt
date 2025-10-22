@@ -3,11 +3,12 @@
 User-agent: *
 Allow: /
 
-# Забрани индексирање привремених или системских фајлова (ако их има)
+# Zabrani indeksiranje privremenih ili sistemskih fajlova (ako ih ima)
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /admin/
 Disallow: /private/
 
-# Локација мапе сајта
+# Lokacija mape sajta
 Sitemap: https://plavazvezdazajecar.com/sitemap.xml
+
