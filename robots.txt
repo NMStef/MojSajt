@@ -1,0 +1,13 @@
+# robots.txt for https://plavazvezdazajecar.com/
+
+User-agent: *
+Allow: /
+
+# Забрани индексирање привремених или системских фајлова (ако их има)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /private/
+
+# Локација мапе сајта
+Sitemap: https://plavazvezdazajecar.com/sitemap.xml
